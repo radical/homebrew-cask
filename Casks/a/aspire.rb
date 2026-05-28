@@ -34,6 +34,4 @@ cask "aspire" do
     versions_dir = Pathname("#{caskroom_path}/versions")
     versions_dir.rmdir if versions_dir.directory? && versions_dir.children.empty?
   end
-
-  # No zap stanza required
 end
